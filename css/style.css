@@ -1,0 +1,21 @@
+@media screen and (max-width:991.98px) {
+    .half-width {
+        width: 100%;
+        margin: 0;
+    }
+
+    .toast-position {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+
+    .toast-position {
+        position: absolute;
+        top: 40%;
+        right: 0;
+    }
+}

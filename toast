@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/.../dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+<title>Bootstrap Example</title>
+<script src="https://cdn.jsdelivr.net/.../dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="p-3 m-0 border-0 bd-example">
+<!-- Example Code -->
+<button type="button" class="btn btn-primary position-relative">
+Inbox
+<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+99+
+<span class="visually-hidden">unread messages</span>
+</span>
+</button>
+<!-- End Example Code -->
+</body>
+</html>
+<= এই খানে একটা বাটন এর উপর ব্যাজ টা বসানো হয়েছে। আপনি কোড টা ব্রাউজার এ ওপেন করে দেখুন। এরপর আপনি একটু চেষ্টা করলে সেটা কার্ড এ এপলাই করতে পারবেন।
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/.../dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+<title>Bootstrap Example</title>
+<script src="https://cdn.jsdelivr.net/.../dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="p-3 m-0 border-0 bd-example bg-light">
+<!-- Example Code -->
+<div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast-header">
+<svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+<strong class="me-auto">Bootstrap</strong>
+<small>11 mins ago</small>
+<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+</div>
+<div class="toast-body">
+Hello, world! This is a toast message.
+</div>
+</div>
+<!-- End Example Code -->
+</body>
+</html>
+এই কোড টা ফলো করার চেষ্টা করুন। হেড ট্যাগ এর মধ্যে যে link ট্যাগ এবং script ট্যাগ ব্যবহার করা হয়েছে সেগুলো এডড করে নিন। অথবা আপনি এই কোড তা ব্রাউজার এ ওপেন করে দেখতে পারেন। তাহলে আশাকরি আর সমস্যা হবে না বুঝতে।
